@@ -21,7 +21,7 @@
                                 <rect key="frame" x="20" y="120" width="335" height="28.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="bdbddd"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Hello"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
