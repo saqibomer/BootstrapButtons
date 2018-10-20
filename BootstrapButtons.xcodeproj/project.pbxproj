@@ -14,6 +14,8 @@
 		AA60B0E2217A25C60033A824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA60B0E0217A25C60033A824 /* LaunchScreen.storyboard */; };
 		AA60B0ED217A25C60033A824 /* BootstrapButtonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60B0EC217A25C60033A824 /* BootstrapButtonsTests.swift */; };
 		AA60B0F8217A25C60033A824 /* BootstrapButtonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60B0F7217A25C60033A824 /* BootstrapButtonsUITests.swift */; };
+		AA60B107217A25EE0033A824 /* BootstrapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA60B106217A25EE0033A824 /* BootstrapButton.swift */; };
+		AACB2229217B44E400912C30 /* ezgif.com-video-to-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = AACB2228217B44E400912C30 /* ezgif.com-video-to-gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AA60B0F3217A25C60033A824 /* BootstrapButtonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BootstrapButtonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA60B0F7217A25C60033A824 /* BootstrapButtonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootstrapButtonsUITests.swift; sourceTree = "<group>"; };
 		AA60B0F9217A25C60033A824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA60B106217A25EE0033A824 /* BootstrapButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BootstrapButton.swift; sourceTree = "<group>"; };
+		AACB2228217B44E400912C30 /* ezgif.com-video-to-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "ezgif.com-video-to-gif.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		AA60B0CB217A25C40033A824 = {
 			isa = PBXGroup;
 			children = (
+				AACB2227217B44D400912C30 /* Demo */,
 				AA60B0D6217A25C40033A824 /* BootstrapButtons */,
 				AA60B0EB217A25C60033A824 /* BootstrapButtonsTests */,
 				AA60B0F6217A25C60033A824 /* BootstrapButtonsUITests */,
@@ -97,6 +102,7 @@
 		AA60B0D6217A25C40033A824 /* BootstrapButtons */ = {
 			isa = PBXGroup;
 			children = (
+				AA60B105217A25D90033A824 /* Src */,
 				AA60B0D7217A25C40033A824 /* AppDelegate.swift */,
 				AA60B0D9217A25C40033A824 /* ViewController.swift */,
 				AA60B0DB217A25C40033A824 /* Main.storyboard */,
@@ -123,6 +129,22 @@
 				AA60B0F9217A25C60033A824 /* Info.plist */,
 			);
 			path = BootstrapButtonsUITests;
+			sourceTree = "<group>";
+		};
+		AA60B105217A25D90033A824 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				AA60B106217A25EE0033A824 /* BootstrapButton.swift */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		AACB2227217B44D400912C30 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AACB2228217B44E400912C30 /* ezgif.com-video-to-gif.gif */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +254,7 @@
 				AA60B0E2217A25C60033A824 /* LaunchScreen.storyboard in Resources */,
 				AA60B0DF217A25C50033A824 /* Assets.xcassets in Resources */,
 				AA60B0DD217A25C40033A824 /* Main.storyboard in Resources */,
+				AACB2229217B44E400912C30 /* ezgif.com-video-to-gif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +281,7 @@
 			files = (
 				AA60B0DA217A25C40033A824 /* ViewController.swift in Sources */,
 				AA60B0D8217A25C40033A824 /* AppDelegate.swift in Sources */,
+				AA60B107217A25EE0033A824 /* BootstrapButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
