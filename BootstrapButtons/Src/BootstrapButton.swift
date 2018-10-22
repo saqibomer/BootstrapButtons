@@ -88,6 +88,24 @@ class BtnPrimary: Btn {
 }
 
 @IBDesignable
+class BtnSecondary: Btn {
+    
+    @IBInspectable
+    override var titleText: String? {
+        didSet {
+            self.setTitle(titleText, for: .normal)
+            self.setTitleColor(UIColor.white, for: .normal)
+            self.sharedInit()
+        }
+    }
+    
+    override func sharedInit() {
+        self.backgroundColor = UIColor.init(red: 107/255, green: 117/255, blue: 125/255, alpha: 1.0)
+        self.borderColor     = UIColor.init(red: 108/255, green: 117/255, blue: 125/255, alpha: 1.0)
+    }
+}
+
+@IBDesignable
 class BtnSuccess: Btn {
     
     @IBInspectable
@@ -156,6 +174,43 @@ class BtnDanger: Btn {
     override func sharedInit() {
         self.backgroundColor = UIColor.init(red: 217/255, green: 83/255, blue: 79/255, alpha: 1.0)
         self.borderColor     = UIColor.init(red: 212/255, green: 63/255, blue: 58/255, alpha: 1.0)
+    }
+}
+
+
+@IBDesignable
+class BtnLight: Btn {
+    
+    @IBInspectable
+    override var titleText: String? {
+        didSet {
+            self.setTitle(titleText, for: .normal)
+            self.setTitleColor(UIColor.init(red: 33/255, green: 37/255, blue: 41/255, alpha: 1.0), for: .normal)
+            self.sharedInit()
+        }
+    }
+    
+    override func sharedInit() {
+        self.backgroundColor = UIColor.init(red: 248/255, green: 249/255, blue: 250/255, alpha: 1.0)
+        self.borderColor     = UIColor.init(red: 248/255, green: 249/255, blue: 250/255, alpha: 1.0)
+    }
+}
+
+@IBDesignable
+class BtnDark: Btn {
+    
+    @IBInspectable
+    override var titleText: String? {
+        didSet {
+            self.setTitle(titleText, for: .normal)
+            self.setTitleColor(UIColor.white, for: .normal)
+            self.sharedInit()
+        }
+    }
+    
+    override func sharedInit() {
+        self.backgroundColor = UIColor.init(red: 52/255, green: 58/255, blue: 64/255, alpha: 1.0)
+        self.borderColor     = UIColor.init(red: 52/255, green: 58/255, blue: 64/255, alpha: 1.0)
     }
 }
 
