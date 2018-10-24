@@ -17,20 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cib-nd-Dx2" customClass="BtnDark" customModule="BootstrapButtons" customModuleProvider="target">
-                                <rect key="frame" x="20" y="120" width="335" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cib-nd-Dx2" customClass="BtnDanger" customModule="BootstrapButtons" customModuleProvider="target">
+                                <rect key="frame" x="38" y="80" width="196" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Hello"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="btn-danger"/>
                                 </userDefinedRuntimeAttributes>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cib-nd-Dx2" secondAttribute="trailing" constant="20" id="B0K-Hm-dWs"/>
-                            <constraint firstItem="cib-nd-Dx2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="caZ-jk-Md9"/>
-                            <constraint firstItem="cib-nd-Dx2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="f7l-jZ-Rcw"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
